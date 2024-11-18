@@ -1,0 +1,36 @@
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+D:\.net\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+D:\.net\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+D:\.net\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll

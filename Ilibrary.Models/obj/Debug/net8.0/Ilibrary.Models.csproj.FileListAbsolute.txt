@@ -1,0 +1,33 @@
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+D:\.net\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+D:\.net\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+D:\.net\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
