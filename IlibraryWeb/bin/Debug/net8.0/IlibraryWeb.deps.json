@@ -3127,12 +3127,18 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2"
         },
         "runtime": {
-          "Ilibrary.DataAccess.dll": {}
+          "Ilibrary.DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Ilibrary.Models/1.0.0": {
         "runtime": {
-          "Ilibrary.Models.dll": {}
+          "Ilibrary.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Ilibrary.Utility/1.0.0": {
@@ -3142,7 +3148,10 @@
           "SendGrid": "9.29.3"
         },
         "runtime": {
-          "Ilibrary.Utility.dll": {}
+          "Ilibrary.Utility.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
