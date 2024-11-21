@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj": {}
+    "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj": {
+    "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj",
         "projectName": "Ilibrary.Utility",
-        "projectPath": "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj",
-        "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\MashalStore\\Ilibrary.Utility\\obj\\",
+        "projectPath": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj",
+        "packagesPath": "C:\\Users\\abdullatif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdullatif\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

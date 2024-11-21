@@ -20,7 +20,25 @@
 
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="//cdn.datatables.net/2.0.2/css/dataTables.dataTables.min.css" />
-   
+    <script src="https://kit.fontawesome.com/20487f3d53.js" crossorigin="anonymous"></script>
+    <title>Shoppers &mdash; Colorlib e-Commerce Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
    
 
 
@@ -100,43 +118,7 @@
             </div>
         </nav>
     </header>
-        @if (currentAction == "Index" && currentController == "Home")
-        {
-            <section style="position: relative; border-bottom:10px">
-                <div class="container-fluid p-0">
-                    <img src="/images/ILibrary2000.png"
-                         class="CoverImage w-100">
-
-
-                </div>
-            </section>
-
-            <section style=" background-color: #B7B597; padding: 50px; " data-aos="fade-in" id="About" class="border-top">
-                <div class="containerAbout container text-center text-white ">
-                    <h2 class="SecondSectionh2 text-center text-white" style="margin-bottom: 40px;">About Us</h2>
-                    <p class="lead">
-                        <span style="font-size: larger;">  Welcome to ILibrary! </span>
-
-                        At ILibrary, we’re passionate about connecting readers with captivating stories. Driven by our love for literature, we curate a diverse collection of books—from timeless classics to contemporary bestsellers.
-                        <br />
-                        What Sets Us Apart:
-                        <br />
-                        Quality Selection: Each book is carefully chosen for its literary merit, relevance, and impact.
-                        <br />
-                        Personalized Recommendations: Our team of avid readers provides tailored suggestions to match your taste.
-                        <br />
-                        Community Hub: ILibrary hosts book clubs, author events, and workshops to foster a vibrant literary community.
-                        <br />
-                        Whether you’re a seasoned bibliophile or a curious newcomer, we invite you to explore our shelves, discover hidden gems, and embark on literary adventures. Join us in celebrating the magic of words!
-                       
-                    </p>
-                    <hr>
-
-                    <a href="#books" class="btn btn-primary" style="margin-top: 40px;">Explore Our books</a>
-                </div>
-            </section>
-         
-        }
+       
 
 
         <div class="container flex-grow-1">
@@ -145,11 +127,54 @@
             </main>
         </div>
 
-        <footer class="border-top footer bg-primary text-muted" style="border-color : #192e2f">
-        <div class="container text-center">
-            Created With Love
-        </div>
-    </footer>
+         <footer id="colorlib-footer" role="contentinfo">
+          <div class="container">
+            <div class="row row-pb-md">
+              <div class="col footer-col colorlib-widget">
+                <h4>About Mashall Outlet</h4>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+                <p>
+                 
+                </p>
+              </div>
+              <div class="col footer-col colorlib-widget">
+                <h4>Customer Service</h4>
+                <p>
+                  <ul class="colorlib-footer-links">
+                    <li>291 South 21th Street, <br> Suite 721 New York NY 10016</li>
+                    <li><a>Mon. - Fri.: 09:00- 17:00</a></li>
+                    <li><a href="https://wa.me/+962775099960">+962775099960</a></li>
+                    <li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
+                  </ul>
+                </p>
+              </div>
+              <div class="col footer-col colorlib-widget">
+                <h4>Follow us on</h4>
+                <p>
+                  <ul class="colorlib-social-icons">
+                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                    <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                  </ul>
+                </p>
+              </div>
+    
+              <div class="col footer-col">
+                <h4>Find our store</h4>
+                <ul class="colorlib-footer-links">
+                  <li><i class="fa-solid fa-location-dot"></i><a href="#">Find Store</a></li>
+                
+              </ul>
+                
+              </div>
+    
+             
+            </div>
+          </div>
+          
+        </footer>
+        
     </div>
     <script src="//cdn.datatables.net/2.0.2/js/dataTables.min.js" asp-append-version="true"></script>
    <script src="https://cdn.tiny.cloud/1/4luocjksldfbu3c0nd5pls2j451n72tgqssmichnz3lse2kx/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
@@ -159,6 +184,15 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 <link rel="stylesheet" type="text/css" href="~/dt/datatables.min.css">
 <script type="text/javascript" src="~/dt/datatables.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
    
    
     @await RenderSectionAsync("Scripts", required: false)

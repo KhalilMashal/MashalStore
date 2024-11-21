@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj": {}
+    "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj": {
+    "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj",
         "projectName": "Ilibrary.DataAccess",
-        "projectPath": "C:\\Projects\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\MashalStore\\Ilibrary.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\abdullatif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdullatif\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projects\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj": {
-                "projectPath": "C:\\Projects\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj"
+              "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj": {
+                "projectPath": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj"
               },
-              "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj": {
-                "projectPath": "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj"
+              "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj": {
+                "projectPath": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj"
               }
             }
           }
@@ -108,20 +108,20 @@
         }
       }
     },
-    "C:\\Projects\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj": {
+    "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj",
+        "projectUniqueName": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj",
         "projectName": "Ilibrary.Models",
-        "projectPath": "C:\\Projects\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj",
-        "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\MashalStore\\Ilibrary.Models\\obj\\",
+        "projectPath": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj",
+        "packagesPath": "C:\\Users\\abdullatif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdullatif\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -176,20 +176,20 @@
         }
       }
     },
-    "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj": {
+    "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj",
         "projectName": "Ilibrary.Utility",
-        "projectPath": "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj",
-        "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\MashalStore\\Ilibrary.Utility\\obj\\",
+        "projectPath": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj",
+        "packagesPath": "C:\\Users\\abdullatif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdullatif\\Downloads\\development\\MashalStore\\Ilibrary.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdullatif\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

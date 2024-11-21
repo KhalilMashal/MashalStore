@@ -1,66 +1,267 @@
 ﻿@model IEnumerable<Product>
 
-    <style>
-    .fixed-size-img {
-        width: 100%;
-        height: 350px; 
-        
-    }
-    </style>
 
 
-
-<div class="container">
-    <h2 style="margin-top: 40px;"><i class="bi bi-chevron-right"></i>Best Sellers This Month</h2>
-    </div>
-
-
-<div  class="row pb-3 my-4" id="books">
- 
-    @foreach (var product in Model.Take(4))
-    {
-        <div class="col-lg-3 col-sm-6">
-            <div class="row p-2">
-                <div class="col-12 p-1">
-                    <div class="card border-0 p-3 shadow border-top border-5 rounded">
-
-                    
-                        @* @if (product.BookImage != null) *@
-                        @* { *@
-
-
-
-                        @*     <img  class="card-img-top  fixed-size-img" src="data:image/jpeg;base64,@Convert.ToBase64String(product.BookImage)" > *@
-                        @* } *@
-                        
-                        <div class="pl-1">
-                            @* <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Title</p> *@
-                            @* <p class="card-title text-warning text-center"> by <b>@product.Author</b></p> *@
+<div class="site-wrap">
+<div class="site-section block-3 site-blocks-2 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nonloop-block-3 owl-carousel">
+                    <div class="item">
+                        <div class="block-4 text-center">
+                            <figure class="block-4-image">
+                                <img src="images/sALES.jpg" alt="Image placeholder" class="img-fluid">
+                            </figure>
+                            <div class="block-4-text p-4">
+                                <h3><a href="#"></a></h3>
+                                <p class="mb-0"></p>
+                                <p class="text-primary font-weight-bold"></p>
+                                <a href="#Sale"> <button class="btn btn-primary mt-3">ON SALE</button></a>
+                            </div>
                         </div>
-                        <div class="pl-1">
-                            <p class="text-dark text-opacity-75 text-center mb-0">
-                                List Price
-                                <span class="text-decoration-line-through">
-                                    @* @product.ListPrice.ToString("c") *@
-                                </span>
-                            </p>
+                    </div>
+                    <div class="item">
+                        <div class="block-4 text-center">
+                            <figure class="block-4-image">
+                                <img src="images/New.jpg" alt="Image placeholder" class="img-fluid">
+                            </figure>
+                            <div class="block-4-text p-4">
+                                <h3><a href="#"></a></h3>
+                                <p class="mb-0"></p>
+                                <p class="text-primary font-weight-bold"></p>
+                                <a href="#new"> <button class="btn btn-primary mt-3">NEW !!</button></a>
+                            </div>
                         </div>
-                        <div class="pl-1">
-                            <p class="text-dark text-opacity-75 text-center">
-                                As low as:
-                                <span>
-                                    @* @product.Price100.ToString("c") *@
-                                </span>
-                            </p>
+                    </div>
+                    <div class="item">
+                        <div class="block-4 text-center">
+                            <figure class="block-4-image">
+                                <img src="images/shoe_1.jpg" alt="Image placeholder" class="img-fluid">
+                            </figure>
+                            <div class="block-4-text p-4">
+                                <h3><a href="#"></a></h3>
+                                <p class="mb-0"></p>
+                                <p class="text-primary font-weight-bold"></p>
+
+                            </div>
                         </div>
-                        <div>
-                            <a asp-action="Details" asp-route-productId="@product.Id" class="btn btn-primary bg-blackbg-gradient border-0 form-control">
-                                Details
-                            </a>
+                    </div>
+                    <div class="item">
+                        <div class="block-4 text-center">
+                            <figure class="block-4-image">
+                                <img src="images/New.jpg" alt="Image placeholder" class="img-fluid">
+                            </figure>
+                            <div class="block-4-text p-4">
+                                <h3><a href="#">T-Shirt Mockup</a></h3>
+                                <p class="mb-0">Finding perfect products</p>
+                                <p class="text-primary font-weight-bold">$50</p>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    }
+    </div>
+</div>
+<!---------------------------------------------------------->
+
+<div class="site-section block-3 site-blocks-2 bg-light">
+    <div class="container">
+        <div class="banner" style="background-image: url(images/denim2.jpg);" data-aos="fade">
+            <div class="container">
+                <div class="row align-items-start align-items-md-center justify-content-end">
+                    <div class="col-md-5 text-center text-md-left pt-5 pt-md-0">
+                        <h1 class="mb-2">Finding Your Perfect Denim</h1>
+                        <div class="intro-text text-center text-md-left">
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla. </p>
+                            <p>
+                                <a href="#" class="btn btn-sm btn-primary">Shop Now</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------------------------------------->
+<section id="Sale">
+    <div class="site-section block-3 site-blocks-2 bg-light">
+        <div class="container">
+            <div class="display-header d-flex align-items-center justify-content-between">
+                <h2>Products on Sales</h2>
+                <div class="btn-right">
+                    <button class="btn btn-primary mt-3">view all</button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+
+                <div class="carousel-container">
+                    <button class="arrow left-arrow" onclick="scrollLeft()"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                    <div class="carousel">
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Black Block Heeled Ankle Boot">
+                            <p class="price">£19.99 <span class="original-price">£39.99</span></p>
+                            <p class="brand">Graceland</p>
+                            <p>Black Block Heeled Ankle Boot</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Brown Faux Fur Lined Boot">
+                            <p class="price">£19.99 <span class="original-price">£39.99</span></p>
+                            <p class="brand">Landrover</p>
+                            <p>Brown Faux Fur Lined Tall Boot</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Dark Brown Faux Fur Boot">
+                            <p class="price">£22.49 <span class="original-price">£44.99</span></p>
+                            <p class="brand">Easy Street</p>
+                            <p>Dark Brown Faux Fur Lined Comfort Boot</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Black Classic Long Leg Boot">
+                            <p class="price">£24.99 <span class="original-price">£49.99</span></p>
+                            <p class="brand">Graceland</p>
+                            <p>Black Classic Long Leg Boot</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Black Classic Long Leg Boot">
+                            <p class="price">£24.99 <span class="original-price">£49.99</span></p>
+                            <p class="brand">Graceland</p>
+                            <p>Black Classic Long Leg Boot</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Black Classic Long Leg Boot">
+                            <p class="price">£24.99 <span class="original-price">£49.99</span></p>
+                            <p class="brand">Graceland</p>
+                            <p>Black Classic Long Leg Boot</p>
+                        </div>
+                    </div>
+                    <button class="arrow right-arrow" onclick="scrollRight()"><i class="fa-solid fa-circle-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------------------------------------------------------->
+<div class="site-section block-3 site-blocks-2 bg-light">
+    <div class="container">
+        <div class="banner" style="background-image: url(images/50-hip-hop-1.png);" data-aos="fade">
+            <div class="text-box " style="position: absolute;  bottom: 12px; right: 10px; ">
+
+                <a href="#" class="explore-button">Explore the collection</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------------------------------->
+<section id="new">
+    <div class="site-section block-3 site-blocks-2 bg-light">
+        <div class="container">
+            <div class="display-header d-flex align-items-center justify-content-between">
+                <h2>Latest Products</h2>
+                <div class="btn-right">
+                    <button class="btn btn-primary mt-3">view all</button>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="carousel-container">
+                    <button class="arrow left-arrow" onclick="scrollLeft()"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                    <div class="carousel">
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Black Block Heeled Ankle Boot">
+                            <p class="price">£19.99 </p>
+                            <p class="brand">Graceland</p>
+                            <p>Black Block Heeled Ankle Boot</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Brown Faux Fur Lined Boot">
+                            <p class="price">£19.99 <span class="original-price">£39.99</span></p>
+                            <p class="brand">Landrover</p>
+                            <p>Brown Faux Fur Lined Tall Boot</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Dark Brown Faux Fur Boot">
+                            <p class="price">£22.49 <span class="original-price">£44.99</span></p>
+                            <p class="brand">Easy Street</p>
+                            <p>Dark Brown Faux Fur Lined Comfort Boot</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Black Classic Long Leg Boot">
+                            <p class="price">£24.99 <span class="original-price">£49.99</span></p>
+                            <p class="brand">Graceland</p>
+                            <p>Black Classic Long Leg Boot</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Black Classic Long Leg Boot">
+                            <p class="price">£24.99 <span class="original-price">£49.99</span></p>
+                            <p class="brand">Graceland</p>
+                            <p>Black Classic Long Leg Boot</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/shoe_1.jpg" alt="Black Classic Long Leg Boot">
+                            <p class="price">£24.99 <span class="original-price">£49.99</span></p>
+                            <p class="brand">Graceland</p>
+                            <p>Black Classic Long Leg Boot</p>
+                        </div>
+                    </div>
+                    <button class="arrow right-arrow" onclick="scrollRight()"><i class="fa-solid fa-circle-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!---------------------------------------------------------->
+<!---------------------------------------------------------->
+
+<div class="site-section block-3 site-blocks-2 bg-light">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p><a href="#" class="btn btn-primary btn-lg">Shop All Products</a></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!---------------------------------------------------------->
+<div class="site-section block-3 site-blocks-2 bg-light">
+    <div class="container">
+        <div class="colorlib-partner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
+                        <h2>Popular brands</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col partner-col text-center">
+                        <img src="images/brand-1.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+                    </div>
+                    <div class="col partner-col text-center">
+                        <img src="images/brand-2.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+                    </div>
+                    <div class="col partner-col text-center">
+                        <img src="images/brand-3.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+                    </div>
+                    <div class="col partner-col text-center">
+                        <img src="images/brand-4.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+                    </div>
+                    <div class="col partner-col text-center">
+                        <img src="images/brand-5.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </div>
