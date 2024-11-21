@@ -47,3 +47,16 @@ C:\Users\user\Desktop\New folder\Projects\Mashal\MashalOutlet\MashalStore\Ilibra
 C:\Users\user\Desktop\New folder\Projects\Mashal\MashalOutlet\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
 C:\Users\user\Desktop\New folder\Projects\Mashal\MashalOutlet\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
 C:\Users\user\Desktop\New folder\Projects\Mashal\MashalOutlet\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\abdullatif\Downloads\development\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
