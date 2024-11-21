@@ -25,23 +25,23 @@
                     <div class="card border-0 p-3 shadow border-top border-5 rounded">
 
                     
-                        @if (product.BookImage != null)
-                        {
+                        @* @if (product.BookImage != null) *@
+                        @* { *@
 
 
 
-                            <img  class="card-img-top  fixed-size-img" src="data:image/jpeg;base64,@Convert.ToBase64String(product.BookImage)" >
-                        }
+                        @*     <img  class="card-img-top  fixed-size-img" src="data:image/jpeg;base64,@Convert.ToBase64String(product.BookImage)" > *@
+                        @* } *@
                         
                         <div class="pl-1">
-                            <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Title</p>
-                            <p class="card-title text-warning text-center"> by <b>@product.Author</b></p>
+                            @* <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Title</p> *@
+                            @* <p class="card-title text-warning text-center"> by <b>@product.Author</b></p> *@
                         </div>
                         <div class="pl-1">
                             <p class="text-dark text-opacity-75 text-center mb-0">
                                 List Price
                                 <span class="text-decoration-line-through">
-                                    @product.ListPrice.ToString("c")
+                                    @* @product.ListPrice.ToString("c") *@
                                 </span>
                             </p>
                         </div>
@@ -49,7 +49,7 @@
                             <p class="text-dark text-opacity-75 text-center">
                                 As low as:
                                 <span>
-                                    @product.Price100.ToString("c")
+                                    @* @product.Price100.ToString("c") *@
                                 </span>
                             </p>
                         </div>

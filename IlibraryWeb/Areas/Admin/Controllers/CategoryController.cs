@@ -23,7 +23,7 @@ namespace IlibraryWeb.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
-            List<Category> objCategoryList = _unitOfWork.Category.GetAll().ToList();
+            List<Section> objCategoryList = _unitOfWork.Category.GetAll().ToList();
 
             return View(objCategoryList);
         }
@@ -35,13 +35,13 @@ namespace IlibraryWeb.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Category obj)
+        public IActionResult Create(Section obj)
         {
             //  custom validation
-            if (obj.Name == obj.DisplayOrder.ToString())
-            {
-                ModelState.AddModelError("name", "The DisplayOrder cannot exactly match the Name.");
-            }
+            //if (obj.Name == obj.DisplayOrder.ToString())
+            //{
+            //    ModelState.AddModelError("name", "The DisplayOrder cannot exactly match the Name.");
+            //}
             if (ModelState.IsValid)
             {
                 _unitOfWork.Category.Add(obj);
@@ -60,7 +60,7 @@ namespace IlibraryWeb.Areas.Admin.Controllers
                 return NotFound();
             }
             /*way 1*/
-            Category? categoryFromDb = _unitOfWork.Category.Get(u => u.Id == id);
+            Section? categoryFromDb = _unitOfWork.Category.Get(u => u.Id == id);
             //way 2  //Category categoryFromD1 = _db.categories.FirstOrDefault(u => u.Id==id);
             //way 3 //Category categoryFromDb2 = _db.categories.Where(u => u.Id == id).FirstOrDefault();
             if (categoryFromDb == null)
@@ -70,7 +70,7 @@ namespace IlibraryWeb.Areas.Admin.Controllers
             return View(categoryFromDb);
         }
         [HttpPost]
-        public IActionResult Edit(Category obj)
+        public IActionResult Edit(Section obj)
         {
 
             if (ModelState.IsValid)
@@ -92,7 +92,7 @@ namespace IlibraryWeb.Areas.Admin.Controllers
                 return NotFound();
             }
             /*way 1*/
-            Category? categoryFromDb = _unitOfWork.Category.Get(u => u.Id == id);
+            Section? categoryFromDb = _unitOfWork.Category.Get(u => u.Id == id);
             //way 2  //Category categoryFromD1 = _db.categories.FirstOrDefault(u => u.Id==id);
             //way 3 //Category categoryFromDb2 = _db.categories.Where(u => u.Id == id).FirstOrDefault();
             if (categoryFromDb == null)
@@ -105,7 +105,7 @@ namespace IlibraryWeb.Areas.Admin.Controllers
         public IActionResult DeletePOST(int? id)
         {
 
-            Category? obj = _unitOfWork.Category.Get(u => u.Id == id);
+            Section? obj = _unitOfWork.Category.Get(u => u.Id == id);
             if (obj == null)
             {
                 return NotFound();

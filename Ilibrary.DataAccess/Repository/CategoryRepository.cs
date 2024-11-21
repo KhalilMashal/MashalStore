@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Ilibrary.DataAccess.Repository
 {
-    public class CategoryRepository : Repository<Category>, ICategoryRepository
+    public class CategoryRepository : Repository<Section>, ICategoryRepository
     {
 
 
@@ -23,7 +23,7 @@ namespace Ilibrary.DataAccess.Repository
 
        
 
-        public void Update(Category obj)
+        public void Update(Section obj)
         {
            _db.Categories.Update(obj);
         }

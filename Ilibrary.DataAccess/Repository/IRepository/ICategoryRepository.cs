@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Ilibrary.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepository : IRepository<Category>
+    public interface ICategoryRepository : IRepository<Section>
     {
-        void Update(Category obj );
+        void Update(Section obj );
        
     }
 }

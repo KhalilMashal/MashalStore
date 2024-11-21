@@ -49,7 +49,7 @@ namespace IlibraryWeb.Areas.Customer.Controllers
         {
             // Retrieve all products with the specified category ID
             var productList = _context.Products
-                .Where(p => p.CategoryId == id)
+                //.Where(p => p.CategoryId == id)
                 .ToList();
 
             return View(productList);

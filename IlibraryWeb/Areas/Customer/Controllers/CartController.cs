@@ -38,7 +38,7 @@ namespace IlibraryWeb.Areas.Customer.Controllers
             };
             foreach (var cart in ShoppingCartVM.ShoppingCartList)
             {
-                cart.Price = GetPriceBasedOnQuantity(cart);
+                //cart.Price = GetPriceBasedOnQuantity(cart);
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
             }
             return View(ShoppingCartVM);
@@ -112,7 +112,7 @@ namespace IlibraryWeb.Areas.Customer.Controllers
 
             foreach (var cart in ShoppingCartVM.ShoppingCartList)
             {
-                cart.Price = GetPriceBasedOnQuantity(cart);
+                //cart.Price = GetPriceBasedOnQuantity(cart);
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
             }
             return View(ShoppingCartVM);
@@ -136,7 +136,7 @@ namespace IlibraryWeb.Areas.Customer.Controllers
 
 			foreach (var cart in ShoppingCartVM.ShoppingCartList)
 			{
-				cart.Price = GetPriceBasedOnQuantity(cart);
+				//cart.Price = GetPriceBasedOnQuantity(cart);
 				ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
 			}
 
@@ -190,7 +190,7 @@ namespace IlibraryWeb.Areas.Customer.Controllers
                             Currency = "usd",
                             ProductData = new SessionLineItemPriceDataProductDataOptions
                             {
-                                Name = item.Product.Title
+                                //Name = item.Product.Title
                             }
                         },
                         Quantity = item.Count
@@ -246,24 +246,24 @@ namespace IlibraryWeb.Areas.Customer.Controllers
 		}
 
 
-		private double GetPriceBasedOnQuantity(ShoppingCart shoppingCart)
-        {
-            if (shoppingCart.Count <= 50)
-            {
-                return shoppingCart.Product.Price;
-            }
-            else
-            {
-                if (shoppingCart.Count <= 100)
-                {
-                    return shoppingCart.Product.Price50;
-                }
-                else
-                {
-                    return shoppingCart.Product.Price100;
-                }
-            }
-        }
+		//private double GetPriceBasedOnQuantity(ShoppingCart shoppingCart)
+  //      {
+  //          if (shoppingCart.Count <= 50)
+  //          {
+  //              return shoppingCart.Product.Price;
+  //          }
+  //          else
+  //          {
+  //              if (shoppingCart.Count <= 100)
+  //              {
+  //                  return shoppingCart.Product.Price50;
+  //              }
+  //              else
+  //              {
+  //                  return shoppingCart.Product.Price100;
+  //              }
+  //          }
+  //      }
     }
 
 

@@ -34,3 +34,16 @@ D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
 D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
 D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
 D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\Projects\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Projects\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll

@@ -93,7 +93,7 @@ namespace IlibraryWeb.Areas.Admin.Controllers
                     {
                         productVM.BookImage.CopyTo(stream);
                       
-                        productVM.Product.BookImage= stream.ToArray();
+                        //productVM.Product.BookImage= stream.ToArray();
                     }
                 }
               
