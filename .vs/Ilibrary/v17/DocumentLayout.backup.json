@@ -1,33 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\MashalStore\\",
+  "WorkspaceRootPath": "C:\\Projects\\New folder\\MashalStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|c:\\projects\\mashalstore\\ilibraryweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|c:\\projects\\new folder\\mashalstore\\ilibraryweb\\areas\\admin\\views\\type\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|solutionrelative:ilibraryweb\\areas\\admin\\views\\type\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|c:\\projects\\new folder\\mashalstore\\ilibraryweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|solutionrelative:ilibraryweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|c:\\projects\\new folder\\mashalstore\\ilibraryweb\\areas\\admin\\controllers\\typecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|solutionrelative:ilibraryweb\\areas\\admin\\controllers\\typecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|c:\\projects\\new folder\\mashalstore\\ilibraryweb\\areas\\admin\\views\\type\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|solutionrelative:ilibraryweb\\areas\\admin\\views\\type\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|c:\\projects\\new folder\\mashalstore\\ilibraryweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|solutionrelative:ilibraryweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|c:\\projects\\mashalstore\\ilibraryweb\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|c:\\projects\\new folder\\mashalstore\\ilibraryweb\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|solutionrelative:ilibraryweb\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|c:\\projects\\mashalstore\\ilibraryweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|solutionrelative:ilibraryweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|c:\\projects\\mashalstore\\ilibraryweb\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C2F126F-8B3A-41A9-89AF-7E5D21228FD8}|IlibraryWeb\\IlibraryWeb.csproj|solutionrelative:ilibraryweb\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{409D00C8-8536-4FCB-AD70-7FE08AA331CA}|Ilibrary.Models\\Ilibrary.Models.csproj|c:\\projects\\mashalstore\\ilibrary.models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{409D00C8-8536-4FCB-AD70-7FE08AA331CA}|Ilibrary.Models\\Ilibrary.Models.csproj|c:\\projects\\new folder\\mashalstore\\ilibrary.models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409D00C8-8536-4FCB-AD70-7FE08AA331CA}|Ilibrary.Models\\Ilibrary.Models.csproj|solutionrelative:ilibrary.models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409D00C8-8536-4FCB-AD70-7FE08AA331CA}|Ilibrary.Models\\Ilibrary.Models.csproj|c:\\projects\\mashalstore\\ilibrary.models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{409D00C8-8536-4FCB-AD70-7FE08AA331CA}|Ilibrary.Models\\Ilibrary.Models.csproj|c:\\projects\\new folder\\mashalstore\\ilibrary.models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409D00C8-8536-4FCB-AD70-7FE08AA331CA}|Ilibrary.Models\\Ilibrary.Models.csproj|solutionrelative:ilibrary.models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DD1BA92-3DB7-4B46-96FD-D64894C6A155}|Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj|c:\\projects\\mashalstore\\ilibrary.dataaccess\\migrations\\20241122144737_add section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DD1BA92-3DB7-4B46-96FD-D64894C6A155}|Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj|c:\\projects\\new folder\\mashalstore\\ilibrary.dataaccess\\migrations\\20241122144737_add section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DD1BA92-3DB7-4B46-96FD-D64894C6A155}|Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj|solutionrelative:ilibrary.dataaccess\\migrations\\20241122144737_add section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Projects\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "IlibraryWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Projects\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "IlibraryWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwCEAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T16:03:22.193Z",
               "IsPinned": true,
@@ -57,35 +65,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Projects\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "IlibraryWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Projects\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "IlibraryWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "Title": "TypeController.cs",
+              "DocumentMoniker": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Controllers\\TypeController.cs",
+              "RelativeDocumentMoniker": "IlibraryWeb\\Areas\\Admin\\Controllers\\TypeController.cs",
+              "ToolTip": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Controllers\\TypeController.cs",
+              "RelativeToolTip": "IlibraryWeb\\Areas\\Admin\\Controllers\\TypeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwC4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T14:59:13.547Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "IlibraryWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "IlibraryWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T14:05:26.002Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Projects\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "IlibraryWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Projects\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "IlibraryWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Views\\Type\\Create.cshtml",
+              "RelativeDocumentMoniker": "IlibraryWeb\\Areas\\Admin\\Views\\Type\\Create.cshtml",
+              "ToolTip": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Views\\Type\\Create.cshtml",
+              "RelativeToolTip": "IlibraryWeb\\Areas\\Admin\\Views\\Type\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T14:59:08.434Z"
+              "WhenOpened": "2024-11-23T14:01:20.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Views\\Type\\Index.cshtml",
+              "RelativeDocumentMoniker": "IlibraryWeb\\Areas\\Admin\\Views\\Type\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Views\\Type\\Index.cshtml",
+              "RelativeToolTip": "IlibraryWeb\\Areas\\Admin\\Views\\Type\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T14:59:08.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "20241122144737_add section.cs",
-              "DocumentMoniker": "C:\\Projects\\MashalStore\\Ilibrary.DataAccess\\Migrations\\20241122144737_add section.cs",
+              "DocumentMoniker": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.DataAccess\\Migrations\\20241122144737_add section.cs",
               "RelativeDocumentMoniker": "Ilibrary.DataAccess\\Migrations\\20241122144737_add section.cs",
-              "ToolTip": "C:\\Projects\\MashalStore\\Ilibrary.DataAccess\\Migrations\\20241122144737_add section.cs",
+              "ToolTip": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.DataAccess\\Migrations\\20241122144737_add section.cs",
               "RelativeToolTip": "Ilibrary.DataAccess\\Migrations\\20241122144737_add section.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,11 +129,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Section.cs",
-              "DocumentMoniker": "C:\\Projects\\MashalStore\\Ilibrary.Models\\Section.cs",
+              "DocumentMoniker": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.Models\\Section.cs",
               "RelativeDocumentMoniker": "Ilibrary.Models\\Section.cs",
-              "ToolTip": "C:\\Projects\\MashalStore\\Ilibrary.Models\\Section.cs",
+              "ToolTip": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.Models\\Section.cs",
               "RelativeToolTip": "Ilibrary.Models\\Section.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,11 +141,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Upsert.cshtml",
-              "DocumentMoniker": "C:\\Projects\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "DocumentMoniker": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
               "RelativeDocumentMoniker": "IlibraryWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
-              "ToolTip": "C:\\Projects\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "ToolTip": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
               "RelativeToolTip": "IlibraryWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
               "ViewState": "AgIAADoAAAAAAAAAAAAswFIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -117,11 +153,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Type.cs",
-              "DocumentMoniker": "C:\\Projects\\MashalStore\\Ilibrary.Models\\Type.cs",
+              "DocumentMoniker": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.Models\\Type.cs",
               "RelativeDocumentMoniker": "Ilibrary.Models\\Type.cs",
-              "ToolTip": "C:\\Projects\\MashalStore\\Ilibrary.Models\\Type.cs",
+              "ToolTip": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.Models\\Type.cs",
               "RelativeToolTip": "Ilibrary.Models\\Type.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

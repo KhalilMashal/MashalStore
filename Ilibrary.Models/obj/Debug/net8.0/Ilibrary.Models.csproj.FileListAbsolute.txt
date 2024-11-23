@@ -43,3 +43,15 @@ C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
 C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
 C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
 C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\Projects\New folder\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.sourcelink.json
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll

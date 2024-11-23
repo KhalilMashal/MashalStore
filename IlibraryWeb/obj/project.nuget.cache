@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0D2vUXlXTKo=",
+  "dgSpecHash": "vv2d74CUDZQ=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\MashalStore\\IlibraryWeb\\IlibraryWeb.csproj",
+  "projectFilePath": "C:\\Projects\\New folder\\MashalStore\\IlibraryWeb\\IlibraryWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\khali\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\khali\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

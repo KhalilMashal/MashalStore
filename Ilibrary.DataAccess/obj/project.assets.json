@@ -8734,11 +8734,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj",
+      "projectUniqueName": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj",
       "projectName": "Ilibrary.DataAccess",
-      "projectPath": "C:\\Projects\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj",
+      "projectPath": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.DataAccess\\Ilibrary.DataAccess.csproj",
       "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\MashalStore\\Ilibrary.DataAccess\\obj\\",
+      "outputPath": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8759,11 +8759,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Projects\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj": {
-              "projectPath": "C:\\Projects\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj"
+            "C:\\Projects\\New folder\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj": {
+              "projectPath": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.Models\\Ilibrary.Models.csproj"
             },
-            "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj": {
-              "projectPath": "C:\\Projects\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj"
+            "C:\\Projects\\New folder\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj": {
+              "projectPath": "C:\\Projects\\New folder\\MashalStore\\Ilibrary.Utility\\Ilibrary.Utility.csproj"
             }
           }
         }

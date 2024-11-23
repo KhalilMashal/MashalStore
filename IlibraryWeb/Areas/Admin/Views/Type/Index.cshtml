@@ -15,15 +15,15 @@
 
            </div>
             <div class="col-6 text-end">
-                <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
-                    <i class="bi bi-plus-circle"></i> Create New Category
+                <a asp-controller="Type" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Create New Type
                 </a>
             </div>
         </div>
         <table class="table table-bordered table-striped">
             <tr>
                 <th>
-                    Category Name
+                    Type Name
                 </th>
                 <th>
                     Display Order
@@ -40,10 +40,10 @@
                         @* <td>@item.DisplayOrder</td> *@
                         <td>
                             <div class="w-75 btn btn-group" role="group">
-                                <a asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary mx-2">
+                                <a asp-controller="Type" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary mx-2">
                                     <i class="bi bi-pencil-square"></i>Edit
                                 </a>
-                                <a asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger mx-2">
+                                <a asp-controller="Type" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger mx-2">
                                     <i class="bi bi-trash-fill"></i>Delete
                                 </a>
 

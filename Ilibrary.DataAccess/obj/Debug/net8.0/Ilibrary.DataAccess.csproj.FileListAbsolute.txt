@@ -75,3 +75,23 @@ C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.Dat
 C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
 C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
 C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.sourcelink.json
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll

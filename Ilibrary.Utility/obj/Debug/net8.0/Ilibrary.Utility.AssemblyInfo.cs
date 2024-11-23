@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ilibrary.Utility")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5546424db75cf0c3380f4d04ad8288880ffdc7cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c13eee30a3622f5e12ee7db4df8273945dedf371")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ilibrary.Utility")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ilibrary.Utility")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
