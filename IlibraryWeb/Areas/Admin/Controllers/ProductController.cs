@@ -48,6 +48,16 @@ namespace IlibraryWeb.Areas.Admin.Controllers
                 {
                     Text = u.Name,
                     Value = u.Id.ToString()
+                }), 
+                BrandList = _context.Brand.ToList().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                }),
+                TypeList = _context.Type.ToList().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
                 }),
                 
                 Product = new Product()
@@ -69,36 +79,40 @@ namespace IlibraryWeb.Areas.Admin.Controllers
 
 
 
+       
         [HttpPost]
-        public IActionResult Upsert(ProductVM productVM , IFormFile? file )
+        public IActionResult Upsert(ProductVM productVM)
         {
-
-
+            productVM.Product.UploadDate = DateTime.Now;
             if (ModelState.IsValid)
             {
-                string wwwRootPath = _webHostEnvironment.WebRootPath;
-                if (file != null )
+                // Handle Main Image
+                if (productVM.MainImage != null)
                 {
-                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-                    string productPath = Path.Combine(wwwRootPath, @"images\product");
-                    
-
-
-
-                    
-                }
-                if (productVM.BookImage != null)
-                {
-                    using (var stream = new MemoryStream())
+                    using (var memoryStream = new MemoryStream())
                     {
-                        productVM.BookImage.CopyTo(stream);
-                      
-                        //productVM.Product.BookImage= stream.ToArray();
+                        productVM.MainImage.CopyTo(memoryStream);
+                        productVM.Product.MainImage = memoryStream.ToArray(); // Save main image as byte array
                     }
                 }
-              
 
-                if (productVM.Product.Id== 0)
+                // Handle Secondary Images
+                if (productVM.SecondaryImages != null && productVM.SecondaryImages.Any())
+                {
+                    List<byte[]> secondaryImages = new List<byte[]>();
+                    foreach (var image in productVM.SecondaryImages)
+                    {
+                        using (var memoryStream = new MemoryStream())
+                        {
+                            image.CopyTo(memoryStream);
+                            secondaryImages.Add(memoryStream.ToArray()); // Save each image as byte array
+                        }
+                    }
+                    productVM.Product.SecondaryImages = secondaryImages.ToArray(); // Convert to byte[][]
+                }
+
+                // Add or Update Product
+                if (productVM.Product.Id == 0)
                 {
                     _unitOfWork.Product.Add(productVM.Product);
                 }
@@ -108,13 +122,25 @@ namespace IlibraryWeb.Areas.Admin.Controllers
                 }
 
                 _unitOfWork.Save();
-                TempData["success"] = "Product Created successfully";
+                TempData["success"] = "Product created successfully";
                 return RedirectToAction("Index");
             }
             else
             {
-
+                // Rebind Select Lists
                 productVM.CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+
+                productVM.BrandList = _context.Brand.ToList().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+
+                productVM.TypeList = _context.Type.ToList().Select(u => new SelectListItem
                 {
                     Text = u.Name,
                     Value = u.Id.ToString()
@@ -122,10 +148,10 @@ namespace IlibraryWeb.Areas.Admin.Controllers
 
                 return View(productVM);
             }
-
         }
 
-       
+
+
 
 
         //#endregion

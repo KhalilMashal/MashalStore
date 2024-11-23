@@ -12,18 +12,21 @@ namespace IlibraryWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles =SD.Role_Admin) ]
+
     public class CategoryController : Controller
     {
-       
+        private readonly ApplicationDbContext _context;
         private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(IUnitOfWork unitOfWork)
+        public CategoryController(IUnitOfWork unitOfWork, ApplicationDbContext context)
         { 
             _unitOfWork = unitOfWork;
+            _context = context;
         }
         public IActionResult Index()
         {
-            List<Section> objCategoryList = _unitOfWork.Category.GetAll().ToList();
+            //List<Section> objCategoryList = _unitOfWork.Category.GetAll().ToList();
+            List<Ilibrary.Models.Type> objCategoryList = _context.Type.ToList();
 
             return View(objCategoryList);
         }

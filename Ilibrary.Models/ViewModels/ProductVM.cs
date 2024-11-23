@@ -16,6 +16,11 @@ namespace Ilibrary.Models.ViewModels
         [ValidateNever]
         public IEnumerable<SelectListItem> CategoryList { get; set; }
         [ValidateNever]
-        public IFormFile BookImage { get; set; }
+        public IEnumerable<SelectListItem> BrandList { get; set; }
+        [ValidateNever]
+        public IEnumerable<SelectListItem> TypeList { get; set; }
+        [ValidateNever]
+        public IFormFile MainImage { get; set; }
+        public IEnumerable<IFormFile> SecondaryImages { get; set; }
     }
 }

@@ -19,65 +19,152 @@
                     <div class="border p-3">
 
                        
-                        @* <div class="form-floating py-2 col-12"> *@
-                        @*     <input asp-for="Product.Title" class="form-control border-0 shadow" /> *@
-                        @*     <label asp-for="Product.Title" class="ms-2"></label> *@
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="Product.Name" class="form-control border-0 shadow" />
+                            <label asp-for="Product.Name" class="ms-2"></label>
 
-                        @*     <span asp-validation-for="Product.Title" class="text-danger"></span> *@
-                        @* </div> *@
+                            <span asp-validation-for="Product.Name" class="text-danger"></span>
+                        </div>
                         <div class="py-2 col-12">
                             <label asp-for="Product.Description" class="ms-2 text-muted"></label>
                             <textarea asp-for="Product.Description" class="form-control border-0 shadow"></textarea>
 
 
                         </div>
-                        @* <div class="form-floating py-2 col-12"> *@
-                        @*     <input asp-for="Product.ISBN" class="form-control border-0 shadow" /> *@
-                        @*     <label asp-for="Product.ISBN" class="ms-2"></label> *@
-                        @*     <span asp-validation-for="Product.ISBN" class="text-danger"></span> *@
-                        @* </div> *@
-                        @* <div class="form-floating py-2 col-12"> *@
-                        @*     <input asp-for="Product.Author" class="form-control border-0 shadow" /> *@
-                        @*     <label asp-for="Product.Author" class="ms-2"></label> *@
-                        @*     <span asp-validation-for="Product.Author" class="text-danger"></span> *@
-                        @* </div><div class="form-floating py-2 col-12"> *@
-                        @*     <input asp-for="Product.ListPrice" class="form-control border-0 shadow" /> *@
-                        @*     <label asp-for="Product.ListPrice" class="ms-2"></label> *@
-                        @*     <span asp-validation-for="Product.ListPrice" class="text-danger"></span> *@
-                        </div><div class="form-floating py-2 col-12">
+                            @* <div class="form-floating py-2 col-12"> *@
+                            @*     <input asp-for="Product.Price" class="form-control border-0 shadow" /> *@
+                            @*     <label asp-for="Product.Price" class="ms-2"></label> *@
+                            @*     <span asp-validation-for="Product.Price" class="text-danger"></span> *@
+                            @* </div> *@
+                        <div class="form-floating py-2 col-12 position-relative">
+                            <input asp-for="Product.Discount"
+                                   class="form-control border-0 shadow pe-5"
+                                   type="number"
+                                   min="0"
+                                   max="100"
+                                   step="0.01"
+                                   placeholder="0" />
+                            <label asp-for="Product.Discount" class="ms-2"></label>
+                            <span asp-validation-for="Product.Discount" class="text-danger"></span>
+                            <!-- Percentage icon -->
+                            <div class="position-absolute top-50 end-0 translate-middle-y me-3 text-muted">
+                                %
+                            </div>
+                        </div>
+
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="Product.Size" class="form-control border-0 shadow" />
+                            <label asp-for="Product.Size" class="ms-2"></label>
+                            <span asp-validation-for="Product.Size" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating py-2 col-12">
                             <input asp-for="Product.Price" class="form-control border-0 shadow" />
                             <label asp-for="Product.Price" class="ms-2"></label>
                             <span asp-validation-for="Product.Price" class="text-danger"></span>
-                        @* </div><div class="form-floating py-2 col-12"> *@
-                        @*     <input asp-for="Product.Price50" class="form-control border-0 shadow" /> *@
-                        @*     <label asp-for="Product.Price50" class="ms-2"></label> *@
-                        @*     <span asp-validation-for="Product.Price50" class="text-danger"></span> *@
-                        @* </div> *@
+                        </div>
+                        <div class="form-floating py-2 col-12">
+                            <select asp-for="Product.IsAvailable" class="form-select border-0 shadow">
+                                <option value="">-- Select Availability --</option>
+                                <option value="true">In Stock</option>
+                                <option value="false">Out of Stock</option>
+                            </select>
+                            <label asp-for="Product.IsAvailable" class="ms-2">Is Available</label>
+                            <span asp-validation-for="Product.IsAvailable" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating py-2 col-12">
+                            <select asp-for="Product.OnBanner" class="form-select border-0 shadow">
+                                <option value="">-- Select Banner Status --</option>
+                                <option value="true">Yes</option>
+                                <option value="false">No</option>
+                            </select>
+                            <label asp-for="Product.OnBanner" class="ms-2">On Banner</label>
+                            <span asp-validation-for="Product.OnBanner" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating py-2 col-12">
+                            <select asp-for="Product.Category"
+                                    class="form-select border-0 shadow">
+                                <option value="Men">Men</option>    
+                                <option value="Women">Women</option>
+                                <option value="Kids">Kids</option>
+                            </select>
+                            <label asp-for="Product.OnBanner" class="ms-2">Category</label>
+                            <span asp-validation-for="Product.OnBanner" class="text-danger"></span>
+                        </div>
+
                         @* <div class="form-floating py-2 col-12"> *@
-                        @*     <input asp-for="Product.Price100" class="form-control border-0 shadow" /> *@
-                        @*     <label asp-for="Product.Price100" class="ms-2"></label> *@
-                        @*     <span asp-validation-for="Product.Price100" class="text-danger"></span> *@
-                        @* </div> *@
-                        @* <div class="form-floating py-2 col-12"> *@
-                        @*     <select asp-for="@Model.Product.CategoryId" asp-items="@Model.CategoryList" class="form-select border-0 shadow"> *@
-                        @*         <option disabled selected>--Select Category--</option> *@
+                        @*     <select asp-for="Product.brand" *@
+                        @*             asp-items="Model.BrandList" *@
+                        @*             class="form-select border-0 shadow"> *@
                         @*     </select> *@
-                        @*     <label asp-for="Product.CategoryId" class="ms-2"></label> *@
-                        @*     <span asp-validation-for="Product.CategoryId" class="text-danger"></span> *@
+                        @*     <label asp-for="Product.brand" class="ms-2">Brand</label> *@
+                        @*     <span asp-validation-for="Product.brand" class="text-danger"></span> *@
                         @* </div> *@
+
+                        <div class="form-floating py-2 col-12">
+                            <select asp-for="@Model.Product.BrandId" asp-items="@Model.BrandList" class="form-select border-0 shadow">
+                                <option disabled selected>--Select Brand--</option>
+                            </select>
+                            <label asp-for="Product.BrandId" class="ms-2"></label>
+                            <span asp-validation-for="Product.BrandId" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating py-2 col-12">
+                            <select asp-for="@Model.Product.TypeId" asp-items="@Model.TypeList" class="form-select border-0 shadow">
+                                <option disabled selected>--Select Type--</option>
+                            </select>
+                            <label asp-for="Product.TypeId" class="ms-2"></label>
+                            <span asp-validation-for="Product.TypeId" class="text-danger"></span>
+                        </div>
                         
                         <div class="form-floating py-2 col-12">
-                            <label asp-for="BookImage" class="form-label">BookImage</label>
+                            <label asp-for="MainImage" class="form-label">MainImage</label>
                             @if (Model.Product.Id != 0)
                             {
-                                <input asp-for="BookImage" type="file" class="form-control" placeholder="BookImage" data-val="false" />
+                                <input asp-for="MainImage" type="file" class="form-control" placeholder="MainImage" data-val="false" />
                             }
                             else
                             {
-                                <input asp-for="BookImage" type="file" class="form-control" placeholder="BookImage" required>
+                                <input asp-for="MainImage" type="file" class="form-control" placeholder="MainImage" required>
                             }
-                            <span asp-validation-for="BookImage" class="text-danger"></span>
+                            <span asp-validation-for="MainImage" class="text-danger"></span>
                         </div>
+                        <div class="form-floating py-2 col-12">
+                            <label asp-for="SecondaryImages" class="form-label">Secondary Images</label>
+                            @if (Model.Product.Id != 0)
+                            {
+                                <input asp-for="SecondaryImages"
+                                       type="file"
+                                       class="form-control"
+                                       placeholder="Secondary Images"
+                                       multiple
+                                       accept="image/*"
+                                       data-val="false"
+                                       onchange="validateFileCount(this)" />
+                            }
+                            else
+                            {
+                                <input asp-for="SecondaryImages"
+                                       type="file"
+                                       class="form-control"
+                                       placeholder="Secondary Images"
+                                       multiple
+                                       accept="image/*"
+                                       required
+                                       onchange="validateFileCount(this)" />
+                            }
+                            <span asp-validation-for="SecondaryImages" class="text-danger"></span>
+                        </div>
+
+                        <script>
+                            function validateFileCount(input) {
+                                if (input.files.length > 4) {
+                                    alert("You can upload up to 4 images only.");
+                                    input.value = ""; 
+                                }
+                            }
+                        </script>
+
+
 
                         <div class="row pt-2">
                             <div class="col-6 col-md-3">
@@ -106,20 +193,19 @@
                     <div class="border p-1 m-2 text-center">
 
                       
-                        @* @if (Model.Product.BookImage !=null) *@
-                        @* { *@
-                        @*     <img width="100%" style="border-radius: 5px; border:1px solid #bbb9b9" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Product.BookImage)"> *@
+                        @if (Model.Product.MainImage !=null) 
+                        {
+                            <img width="100%" style="border-radius: 5px; border:1px solid #bbb9b9" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Product.MainImage)">
 
-                        @* } *@
+                         }
 
 
                     </div>
                     
                 </div>
             </div>
-           
         </form>
-</div>
+        </div>
 </div>
 
 
